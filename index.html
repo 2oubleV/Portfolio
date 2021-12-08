@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af5f610191.js" crossorigin="anonymous"></script>
+    <title>William Mallevays</title>
+</head>
+<body>
+
+<!--
+The background of this section should contains some particle which move according to the cursor
+Add a dark theme option
+-->
+
+<section id="about-me">
+    <nav>
+        <div class="personal_logo">William Mallevays</div>
+        <ul class="nav__link--list">
+            <li>
+                <a href="" class="nav__link--anchor
+                     link__hover-effect
+                     link__hover-effect--black">
+                    Languages</a>
+            </li>
+            <li>
+                <a href="" class="nav__link--anchor
+                     link__hover-effect
+                     link__hover-effect--black">
+                    Project</a>
+            </li>
+            <li>
+                <a href="" class="nav__link--anchor
+                    nav__link--anchor-primary">
+                    Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="flex flex-1">
+        <div class="about-me__info row">
+            <div class="about-me__info--container">
+                <figure class="about-me__picture--mask">
+                    <img src="./assets/MALLEVAYS-William.jpg" class="about-me__picture" alt="This is a picture of me">
+                </figure>
+                <h1 class="about-me__info--title">
+                    Hey, I'm <span class="text--purple">William Mallevays</span>
+                </h1>
+                <p class="about-me__info--para">
+                    I'm a <strong class="text--purple">computer science student at Epitech Lille</strong>, actually
+                    enhancing my <strong class="text--purple">
+                    front-end skills</strong>, I'm fond of learning as much as I can and I'm crazy about new
+                    technologies.
+                </p>
+                <div class="about-me__links">
+                    <a href="" class="about-me__link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </div>
+            </div>
+            <figure class="about-me__img--container">
+                <img src="./assets/undraw_creativity_re_8grt.svg" class="about-me__img" alt="img website">
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!--
+This section should if possible appears with a lerp effect via locomotiveJS
+-->
+<section id="languages">
+    <div class="container">
+        <div class="row">
+            <h1 class=section__title> This is my <span class="text--purple">technology stack</span></h1>
+            <div class="language__list">
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                                alt="Html Logo" class="language__img"/>
+                    </figure>
+                    <span class="language__name">HTML</span>
+                </div>
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo"
+                             class="language__img"/>
+                    </figure>
+                    <span class="language__name">CSS</span>
+                </div>
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                             alt="JavaScript Logo"
+                             class="language__img"/>
+                    </figure>
+                    <span class="language__name">JavaScript</span>
+                </div>
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/logo-1889531-1597591.png"
+                             alt="React Logo" class="language__img"/>
+                    </figure>
+                    <span class="language__name">React JS</span>
+                </div>
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" alt="Node Logo"
+                             class="language__img"/>
+                    </figure>
+                    <span class="language__name">Node JS</span>
+                </div>
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/docker-13-1175230.png" alt="Docker Logo"
+                             class="language__img"/>
+                    </figure>
+                    <span class="language__name">Docker</span>
+                </div>
+                <!--
+                the 2 last obj must be replace by sql/mysql and mongodb or firebase as soon as possible
+                -->
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/python-2-226051.png" alt="Python Logo"
+                             class="language__img"/>
+                    </figure>
+                    <span class="language__name">Python</span>
+                </div>
+                <div class="language">
+                    <figure class="language__img--wrapper">
+                        <img src="https://aws1.discourse-cdn.com/standard17/uploads/threejs/optimized/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751_2_496x500.png" alt="ThreeJS Logo"
+                             class="language__img"/>
+                    </figure>
+                    <span class="language__name">Three JS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <div class="container">
+        <div class="row">
+            <h1 class="section__title"> Here are some of <span class="text--purple">my projects</span></h1>
+            <ul class="projects__list">
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="./assets/loopit.png" class="project__img" alt="tmp">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--
+the project carroussel should infinite and horizontal
+-->
+</body>
+</html>
