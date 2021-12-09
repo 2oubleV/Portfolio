@@ -462,6 +462,17 @@ footer {
         left: 30px;
         padding-right: 30px;
     }
+
+    .cursor--small {
+        width: 0;
+        height: 0;
+    }
+
+    .cursor--canvas {
+        width: 0;
+        height: 0;
+    }
+
 }
 
 /*  SMALL PHONES    */
@@ -499,4 +510,35 @@ footer {
         text-align: center;
         margin: 12px 0;
     }
+}
+
+/*  Animation */
+@media (min-width: 769px) {
+    body, a {
+        cursor: none;
+    }
+
+    .cursor--small {
+        width: 5px;
+        height: 5px;
+        left: -2.5px;
+        top: -2.5px;
+        border-radius: 50%;
+        z-index: 11000;
+        background: black;
+    }
+
+    .cursor--canvas {
+        width: 100vw;
+        height: 100vh;
+        z-index: 12000;
+    }
+
+    .cursor {
+        position: fixed;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+    }
+
 }
