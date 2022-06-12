@@ -294,6 +294,7 @@ nav {
 
 /* Projects */
 
+
 .project {
     margin-bottom: 135px;
 }
@@ -325,6 +326,20 @@ nav {
     opacity: 0;
     transition: all 450ms ease;
     z-index: 2;
+}
+
+.project__img {
+    top: 0;
+    left: 0;
+    /*background-size: cover;*/
+    height: 430px;
+    /*margin-bottom: auto;*/
+    /*overflow-y: hidden;*/
+}
+
+.todo__img {
+    object-fit: cover;
+    transform: scale(1.02);
 }
 
 .project:hover .project__wrapper:before {
