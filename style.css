@@ -133,7 +133,7 @@ nav {
     font-weight: bold;
 }
 
-.fas:hover, .fab:hover, .far:hover {
+.fas:hover, .fab:hover, .material-icons:hover, .far:hover {
     color: #6030b1;
 }
 
@@ -420,8 +420,8 @@ footer {
 
 .footer__logo {
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -430,6 +430,11 @@ footer {
 .footer__copyright,
 .footer__logo--popper {
     color: white;
+}
+
+.footer__logo--img {
+    color: white;
+    font-size: 200%;
 }
 
 .footer__logo--popper {
